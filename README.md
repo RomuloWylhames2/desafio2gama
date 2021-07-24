@@ -2,7 +2,7 @@
 
 Você pode conferir o projeto em: <a href="https://desafio2cadastro.netlify.app/" target="_blank">Gestão de Cadastro</a>
 
-## Inicio
+## Início
 ![TelaInicio](https://user-images.githubusercontent.com/76064660/126873069-e32274c3-ee43-4471-9e2a-b220c927d11a.png)
 
 

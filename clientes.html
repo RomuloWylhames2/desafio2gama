@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style2.css">
+    <title>Gestão de Cadastros</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-warning">
+        <a class="navbar-brand"  href="./index.html">Voltar ao Cadastro</a>
+        <img src="./images/gif-maker.gif" alt="some text" width=100 height=50>
+    </nav>
+    <main class="container-cadastro">
+        <form action="#" method="post" id="formulario">
+            <div class="form-campos">
+                <div class="label-input">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome Completo" class="input" required />
+                </div>
+                <div class="label-input">
+                    <label for="cpf">CPF (somente números)</label>
+                    <input type="number" name="cpf" id="cpf" placeholder="000-000-000-00" class="input" required />
+                </div>
+                <div class="label-input">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="email@gmail.com" class="input" required />
+                </div>
+                <div class="label-input">
+                    <label for="telefone">Telefone (somente números)</label>
+                    <input type="number" name="telefone" id="telefone" placeholder="(DD) 00000-00" class="input" required />
+                </div>
+            </div>
+            <input type="submit" class="botao" value="Cadastrar Cliente" />
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-clientes">
+
+            </tbody>
+        </table>
+       
+    </main>
+    
+    <script src="App2.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

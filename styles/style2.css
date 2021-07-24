@@ -1,0 +1,108 @@
+body{
+    background-image: url(../images/bg-1-HC.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: auto;
+}
+
+img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-botoes {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+.container-botoes a {
+    width: fit-content;
+}
+
+.botao {
+    margin: 0 20px;
+    padding: 12px 20px;
+    max-width: 200px;
+    background-color: #0077b6;
+    color: #fff;
+    border-radius: 6px;
+    border: 0;
+    transition: background-color 0.2s;
+    font-size: 16px;
+    font-weight: 600;
+    height: fit-content;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #023e8a;
+}
+
+.container-cadastro {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 200px ;
+}
+
+.container-cadastro a {
+    width: fit-content;
+}
+
+form#formulario {
+    margin-top: 18vh;
+    color: #fca311;
+    display: flex;      
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.form-campos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.input {
+    border: 1px solid #fca311;
+    border-radius: 6px;
+    outline-width: 0;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.input:hover, :focus {
+    box-shadow: 0 1px 6px #000;
+}
+
+
+.container-cadastro table {
+    margin: 40px 20px;
+    color: #fff;
+}
+
+.container-cadastro table td, th {
+    width: 25%;
+}
+
+.container-cadastro table thead {
+    background-color: #fca311;
+}
+
+.container-cadastro table thead tr th {
+    font-weight: 500;
+}
+
+.container-cadastro table tbody {
+    text-align: center;
+    font-weight: 300;
+    color: #000;
+    background-color: #fcbf49;
+}
